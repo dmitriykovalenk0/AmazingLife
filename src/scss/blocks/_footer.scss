@@ -1,0 +1,168 @@
+.footer {
+    background-color: #212227;
+    min-height: 605px;
+
+    grid-area: 7 / 1 / 7 / 5;
+}
+
+.footer__content {
+    display: flex;
+    justify-content: space-evenly;
+
+    padding-top: 100px;
+}
+
+.footer__about {
+    max-width: 280px;
+}
+
+.footer__contact {
+    max-width: 170px;
+}
+
+.footer__subscribe {
+    max-width: 480px;
+}
+
+.footer__title {
+    padding-bottom: 30px;
+
+    color: #f9f9f9;
+    font-weight: 700;
+}
+
+.footer__title span {
+    display: block;
+    padding-top: 4px;
+}
+
+.footer__text {
+    color: #919191;
+    font-size: 14px;
+    line-height: 21px;
+}
+
+.footer__text span {
+    padding-top: 25px;
+
+    display: block;
+}
+
+.span-pad {
+    padding-bottom: 75px;
+}
+
+.footer__contact-social-links a {
+    padding-left: 25px;
+
+    display: block;
+
+    color: #919191;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 24px;
+}
+
+.facebook {
+    position: relative;
+}
+
+.facebook:before {
+    content: '\f09a';
+    font-family: 'icomoon';
+
+    position: absolute;
+    left: 0;
+}
+
+.twitter {
+    position: relative;
+}
+
+.twitter:before {
+    content: '\f099';
+    font-family: 'icomoon';
+
+    position: absolute;
+    left: 0;
+}
+
+.inst {
+    position: relative;
+}
+
+.inst:before {
+    content: '\f16d';
+    font-family: 'icomoon';
+
+    position: absolute;
+    left: 0;
+}
+
+.spotify {
+    position: relative;
+}
+
+.spotify:before {
+    content: '\f1bc';
+    font-family: 'icomoon';
+
+    position: absolute;
+    left: 0;
+}
+
+.footer__input {
+    position: relative;
+
+    padding: 15px 0 80px;
+
+    &:after {
+        content: '\f061';
+        font-family: 'icomoon';
+
+        position: absolute;
+        right: 20px;
+        top: 35px;
+
+        opacity: 0.6;
+        color: #919191;
+        font-size: 18px;
+        font-weight: 400;
+        line-height: 21px;
+    }
+}
+
+.input {
+    padding-left: 20px;
+
+    width: 480px;
+    height: 60px;
+
+    background-color: #909193;
+    opacity: 0.4;
+    outline: none;
+    border: none;
+
+    &::placeholder {
+        color: #fff;
+        font-size: 14px;
+        line-height: 21px;
+    }
+}
+
+.footer__subscribe-sponsor-logo {
+    width: 280px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer__subscribe-sponsor-logo a {
+    color: #f2f7fb;
+    font-family: Lato;
+    font-size: 12px;
+    font-weight: 700;
+
+    border: 1px solid #f4f8fb;
+
+    padding: 30px 23px;
+}

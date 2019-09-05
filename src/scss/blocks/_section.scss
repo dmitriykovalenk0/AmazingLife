@@ -122,3 +122,148 @@
 
     grid-area: 4 / 4 / 4 / 5;
 }
+
+.section__4 {
+    background: url('../../img/section-4-bg.png') center/cover no-repeat;
+    min-height: 900px;
+
+    grid-area: 5 / 1 / 5 / 5;
+
+    position: relative;
+
+    &-title {
+        color: #2ebd59;
+        font-size: 24px;
+        font-weight: 400;
+        line-height: 32px;
+        text-transform: uppercase;
+    }
+
+    &-title span {
+        font-size: 18px;
+    }
+
+    &-text {
+        color: #f9f9f9;
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 21px;
+
+        padding: 25px 0 45px;
+    }
+
+    &-link {
+        padding: 7px 40px 7px 12px;
+
+        color: #2ebd59;
+        font-weight: 700;
+        line-height: 32px;
+
+        border-radius: 32px;
+        border: 2px solid #2ebd59;
+
+        position: relative;
+    }
+
+    &-link:after {
+        content: '\f04b';
+        font-family: 'icomoon';
+
+        position: absolute;
+        right: 15px;
+    }
+}
+
+.section__4-inner {
+    position: absolute;
+    top: 0;
+    left: 0;
+
+    width: 400px;
+    height: 500px;
+
+    background-color: #212227;
+}
+
+.section__4-content {
+    max-width: 225px;
+
+    padding: 140px 0 95px;
+    margin-left: 58px;
+}
+
+.section__5-left {
+    background-color: #2ebd59;
+    color: #f9f9f9;
+    min-height: 515px;
+
+    grid-area: 6 / 1 / 6 / 3;
+
+    &-title {
+        font-size: 24px;
+        font-weight: 700;
+    }
+
+    &-text {
+        font-size: 36px;
+        letter-spacing: -1.8px;
+        line-height: 40px;
+
+        padding: 40px 0 35px;
+    }
+
+    &-link {
+        padding: 20px 25px;
+
+        font-weight: 700;
+        letter-spacing: 3.6px;
+        color: #f9f9f9;
+
+        border-radius: 32px;
+        border: 2px solid #ffffff;
+    }
+}
+
+.section__5-left-content {
+    padding: 140px 0 145px 210px;
+
+    max-width: 650px;
+}
+
+.section__5-right {
+    background-color: #282b2f;
+    color: #f9f9f9;
+    min-height: 515px;
+
+    grid-area: 6 / 3 / 6 / 5;
+
+    &-title {
+        font-size: 24px;
+        font-weight: 700;
+    }
+
+    &-text {
+        font-size: 36px;
+        letter-spacing: -0.9px;
+        line-height: 40px;
+
+        padding: 40px 0 35px;
+    }
+
+    &-link {
+        padding: 20px 25px;
+
+        font-weight: 700;
+        letter-spacing: 3.6px;
+        color: #f9f9f9;
+
+        border-radius: 32px;
+        border: 2px solid #ffffff;
+    }
+}
+
+.section__5-right-content {
+    padding: 140px 0 145px 65px;
+
+    max-width: 435px;
+}
